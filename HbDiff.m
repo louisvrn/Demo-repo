@@ -1,5 +1,9 @@
 function [rawHbDiff, filtHbDiff] = HbDiff(data, freq, avg)
 validateattributes(data,{'double'}, {'size', [14, 30001]})
+validateattributes(freq,{'numeric'}, {'size', [1, 1]})
+validateattributes(avg,{'numeric'}, {'size', [1, 1]})
+
+
 %Computing HbDiff from given data
 %   First the oxy and deoxygenated concentrations of hemoglobine are
 %   calculated based on the data received by the three receivers (stored in
@@ -22,7 +26,7 @@ end
 
 %compute and filter HbDiff data
 rawHbDiff = rawO2Hb - rawHHb;
-filtHbDiff = movmean(rawHbDiff, 5*2048);
+filtHbDiff = movmean(rawHbDiff, avg*freq);
 
 end
 
