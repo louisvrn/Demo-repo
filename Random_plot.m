@@ -3,9 +3,6 @@ clear
 close all
 clc
 %% Stupid plot 
-
-for i = 1:1000
-    x(i) = rand;
-    y(i) = rand;
-end
+a = [10 1];
+[x, y] = RandomPlot(a);
 plot(x,y,'ro');
