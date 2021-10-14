@@ -95,4 +95,4 @@ legend({'$\frac{HHb}{EMG_{75}}$', 'Polynomial fit', 'Estimated LT', 'LT'}, 'Inte
 %% Save results
 %change numbering 'Kuznetsov_threshold_1' for each participant in order to
 %be able to differentiate participant results
-save('Kuznetsov_timestamp0', 'timestamp')
+%save('Kuznetsov_timestamp0', 'timestamp')
