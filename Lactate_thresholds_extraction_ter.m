@@ -57,7 +57,7 @@ yticks(0:2:max(lact.data)+1)
 %change numbering 'LT_0' for each participant in order to
 %be able to differentiate participant results
 
-save('LT_3', 'LT1', 'LT2','LTonset')
+%save('LT_3', 'LT1', 'LT2','LTonset')
 
 
 

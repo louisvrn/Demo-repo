@@ -38,4 +38,4 @@ transmat0 = data(1).transmat;
 
 [LL_HMM, prior_HMM, transmat_HMM, mu_HMM, Sigma_HMM, mixmat_HMM] = mhmm_em(nSTD, prior0, transmat0, mu0, (Sigma0).^2, mixmat0, 'max_iter', 20);
  
-save('HMM_parameters', 'prior_HMM', 'transmat_HMM', 'mu_HMM', 'Sigma_HMM', 'mixmat_HMM');
+%save('HMM_parameters', 'prior_HMM', 'transmat_HMM', 'mu_HMM', 'Sigma_HMM', 'mixmat_HMM');

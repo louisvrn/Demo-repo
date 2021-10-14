@@ -188,4 +188,4 @@ STD = seg.cycles.std;
 %first iteration of HMM, non state-specific STD contraction values
 %for all participants to use as input to train HMM
 
-save('model_parameters_std0','STD', 'm1', 'm2', 's1', 's2', 'transmat','LT_per_contraction')
+%save('model_parameters_std0','STD', 'm1', 'm2', 's1', 's2', 'transmat','LT_per_contraction')

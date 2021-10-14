@@ -110,7 +110,7 @@ threshold.min = (threshold.min*60)+60;
 %% Save results
 %change numbering 'Grassi_timestamps_0' for each participant in order to
 %be able to differentiate participant results
-save('Grassi_timestamps0','threshold');
+%save('Grassi_timestamps0','threshold');
 
 
 
