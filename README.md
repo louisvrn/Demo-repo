@@ -1,3 +1,3 @@
 # Demo repo
 This is my demo
-This is my new branch
+These are some scripts I used while working on my thesis.
